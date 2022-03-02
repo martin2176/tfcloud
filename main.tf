@@ -7,8 +7,8 @@ terraform {
 }
 
 provider "datadog" {
-  api_key = var.api_key
-  app_key = var.app_key
+  api_key = var.apikey
+  app_key = var.appkey
 }
 #Add datadog monitor
 resource "datadog_monitor_json" "monitor_json" {
