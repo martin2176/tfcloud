@@ -1,0 +1,5 @@
+variable "apikey" {
+}
+
+variable "appkey" {
+}
